@@ -1,0 +1,28 @@
+{
+  "files": {
+    "main.css": "/my_personal_website/static/css/main.1f47c2a0.css",
+    "main.js": "/my_personal_website/static/js/main.3f908e5c.js",
+    "static/js/453.8463039d.chunk.js": "/my_personal_website/static/js/453.8463039d.chunk.js",
+    "static/media/video2.mp4": "/my_personal_website/static/media/video2.a248ddbaacab515c4e8e.mp4",
+    "static/media/video3.mp4": "/my_personal_website/static/media/video3.eb2fc3211b866db63052.mp4",
+    "static/media/video1.mp4": "/my_personal_website/static/media/video1.5916449b2801b4265e45.mp4",
+    "static/media/img14.jpg": "/my_personal_website/static/media/img14.a5256477aa345f5e0ee5.jpg",
+    "static/media/img12.jpg": "/my_personal_website/static/media/img12.744f3b1281c7476ed97a.jpg",
+    "static/media/img11.jpg": "/my_personal_website/static/media/img11.485ec1eac72a21833dc7.jpg",
+    "static/media/img3.jpg": "/my_personal_website/static/media/img3.d12702f985e9fae3bbd6.jpg",
+    "static/media/img7.jpg": "/my_personal_website/static/media/img7.93a8ccb342bd150e62be.jpg",
+    "static/media/img1.jpg": "/my_personal_website/static/media/img1.a682f08fc8c542805b2f.jpg",
+    "static/media/img6.jpg": "/my_personal_website/static/media/img6.6b7194363fc2fb33e1e4.jpg",
+    "static/media/img4.jpg": "/my_personal_website/static/media/img4.d6d13ccee66ca14749a8.jpg",
+    "static/media/img9.jpg": "/my_personal_website/static/media/img9.099ebb608ed80fad51a9.jpg",
+    "static/media/logo.png": "/my_personal_website/static/media/logo.50825dcd0606c0e2757a.png",
+    "index.html": "/my_personal_website/index.html",
+    "main.1f47c2a0.css.map": "/my_personal_website/static/css/main.1f47c2a0.css.map",
+    "main.3f908e5c.js.map": "/my_personal_website/static/js/main.3f908e5c.js.map",
+    "453.8463039d.chunk.js.map": "/my_personal_website/static/js/453.8463039d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1f47c2a0.css",
+    "static/js/main.3f908e5c.js"
+  ]
+}
