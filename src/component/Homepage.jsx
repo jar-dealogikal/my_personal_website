@@ -4,7 +4,7 @@ import { Bars3Icon, XMarkIcon } from "@heroicons/react/24/outline";
 import { motion, useInView } from "framer-motion";
 import { FaFacebook, FaInstagram, FaEnvelope } from "react-icons/fa";
 
-import img3 from "../img/img3.jpg";
+import img3 from "../img/Untitled.jpeg";
 
 import logo from "../img/logo.png";
 import About from "./About";
@@ -203,7 +203,7 @@ export default function Example() {
 						<img
 							alt=""
 							src={img3}
-							className="aspect-[3/2] w-full bg-gray-50 object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+							className="aspect-[3/2] w-full bg-transparent object-fit lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
 						/>
 					</div>
 				</div>
