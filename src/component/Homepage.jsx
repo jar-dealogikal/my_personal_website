@@ -101,7 +101,7 @@ export default function Example() {
 						{navigation.map((item) => (
 							<a
 								key={item.name}
-								href="/#"
+								href={item.href}
 								onClick={() => scrollToSection(item.href)}
 								className="text-sm font-semibold text-white bg-[#1AE8FF] py-2 px-4 rounded-lg cursor-pointer hover:bg-transparent hover:border-[#1AE8FF] hover:border hover:text-[#1AE8FF]"
 							>
@@ -150,7 +150,7 @@ export default function Example() {
 				</Dialog>
 			</header>
 			{/* bg-gradient-to-r from-cyan-300 via-fuchsia-300 to-fuchsia-400 */}
-			{/* <ParallaxSection> */}
+			<ParallaxSection>
 				<div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
 					<div className="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
 						<div className="mx-auto max-w-2xl lg:mx-0">
@@ -207,17 +207,17 @@ export default function Example() {
 						/>
 					</div>
 				</div>
-			{/* </ParallaxSection> */}
+			</ParallaxSection>
 
-			{/* <ParallaxSection> */}
+			<ParallaxSection>
 				<About />
-			{/* </ParallaxSection> */}
-			{/* <ParallaxSection> */}
+			</ParallaxSection>
+			<ParallaxSection>
 				<BlogPost />
-			{/* </ParallaxSection> */}
-			{/* <ParallaxSection> */}
+			</ParallaxSection>
+			<ParallaxSection>
 				<Photos />
-			{/* </ParallaxSection> */}
+			</ParallaxSection>
 			<Footer />
 		</div>
 	);
