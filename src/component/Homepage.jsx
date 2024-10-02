@@ -91,7 +91,7 @@ export default function Example() {
 						<button
 							type="button"
 							onClick={() => setMobileMenuOpen(true)}
-							className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-700"
+							className="-m-2.5 inline-flex items-center justify-center rounded-md p-2.5 text-gray-200"
 						>
 							<span className="sr-only">Open main menu</span>
 							<Bars3Icon aria-hidden="true" className="h-6 w-6" />
@@ -125,7 +125,7 @@ export default function Example() {
 							<button
 								type="button"
 								onClick={() => setMobileMenuOpen(false)}
-								className="-m-2.5 rounded-md p-2.5 text-gray-700"
+								className="-m-2.5 rounded-md p-2.5 text-gray-400"
 							>
 								<span className="sr-only">Close menu</span>
 								<XMarkIcon aria-hidden="true" className="h-6 w-6" />
@@ -151,8 +151,8 @@ export default function Example() {
 			</header>
 			{/* bg-gradient-to-r from-cyan-300 via-fuchsia-300 to-fuchsia-400 */}
 			<ParallaxSection>
-				<div className="mx-auto max-w-7xl lg:grid lg:grid-cols-12 lg:gap-x-8 lg:px-8">
-					<div className="px-6 pb-24 pt-10 sm:pb-32 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
+				<div className="mx-auto max-w-7xl lg:grid lg:grid-cols-10 lg:gap-x-8 lg:px-8">
+					<div className="px-6 pb-16 pt-28 sm:pb-24 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
 						<div className="mx-auto max-w-2xl lg:mx-0">
 							<TypingEffect text="Welcome To My Personal Website" speed={100} />
 							{/* <h1 className="mt-24 text-4xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-fuchsia-300 to-fuchsia-400 bg-clip-text text-transparent text-center font-serif sm:mt-10 sm:text-6xl">
@@ -203,7 +203,7 @@ export default function Example() {
 						<img
 							alt=""
 							src={img3}
-							className="aspect-[3/2] w-full bg-transparent object-fit lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+							className="aspect-[2/2] w-[50rem] bg-transparent object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
 						/>
 					</div>
 				</div>
