@@ -20,7 +20,7 @@ const posts = [
 
 export default function BlogPost() {
 	return (
-		<div id="blog" className="py-24 sm:py-32">
+		<section id="blog" className="py-24 sm:py-32">
 			<div className="mx-auto max-w-7xl px-6 lg:px-8">
 				<div className="mx-auto max-w-2xl text-center">
 					<h2 className="text-3xl sm:pb-2 font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-fuchsia-300 to-fuchsia-400 bg-clip-text text-transparent sm:text-5xl font-serif">
@@ -43,6 +43,6 @@ export default function BlogPost() {
 					))}
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 }

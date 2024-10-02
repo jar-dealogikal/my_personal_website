@@ -24,15 +24,15 @@ export default function Photos() {
 	];
 
 	return (
-		<div id="photos" className="py-24 sm:py-32">
+		<section id="photos" className="py-24 sm:py-32">
 			<h1 className="text-3xl text-center sm:pb-5 font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-fuchsia-300 to-fuchsia-400 bg-clip-text text-transparent sm:text-5xl font-serif mb-10">
 				Photos
 			</h1>
 			<div className="columns-1 gap-5 sm:columns-2 sm:gap-8 md:columns-3 lg:columns-4 [&>img:not(:first-child)]:mt-8">
 				{images.map((src, index) => (
-					<img key={index} src={src} alt={`Photo ${index + 1}`} />
+					<img key={index} src={src} alt="" />
 				))}
 			</div>
-		</div>
+		</section>
 	);
 }
