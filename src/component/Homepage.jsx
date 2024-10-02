@@ -155,9 +155,6 @@ export default function Example() {
 					<div className="px-6 pb-16 pt-28 sm:pb-24 lg:col-span-7 lg:px-0 lg:pb-56 lg:pt-48 xl:col-span-6">
 						<div className="mx-auto max-w-2xl lg:mx-0">
 							<TypingEffect text="Welcome To My Personal Website" speed={100} />
-							{/* <h1 className="mt-24 text-4xl font-bold tracking-tight bg-gradient-to-r from-cyan-300 via-fuchsia-300 to-fuchsia-400 bg-clip-text text-transparent text-center font-serif sm:mt-10 sm:text-6xl">
-							Welcome To My Personal Blog
-						</h1> */}
 							<p className="mt-6 text-lg leading-8 text-gray-100">
 								Hi I'm, Janm Arch Rubio I'm an adventure enthusiast who loves
 								diving into the vibrant worlds of anime and costume cosplay.
@@ -185,7 +182,7 @@ export default function Example() {
 										href="https://www.instagram.com/janmaaku14/"
 										target="_blank"
 										rel="noopener noreferrer"
-										className="cursor-pointer "
+										className="cursor-pointer"
 									>
 										<FaInstagram className="h-7 w-7 text-[#1AE8FF] hover:text-pink-400" />
 									</a>
@@ -199,11 +196,11 @@ export default function Example() {
 							</div>
 						</div>
 					</div>
-					<div className="relative lg:col-span-5 lg:-mr-8 xl:absolute xl:inset-0 xl:left-1/2 xl:mr-0">
+					<div className="relative w-full lg:col-span-3 xl:col-span-4">
 						<img
 							alt=""
 							src={img3}
-							className="aspect-[2/2] w-[50rem] bg-transparent object-cover lg:absolute lg:inset-0 lg:aspect-auto lg:h-full"
+							className="aspect-[2/2] w-full h-full bg-transparent object-cover lg:absolute lg:inset-0"
 						/>
 					</div>
 				</div>
