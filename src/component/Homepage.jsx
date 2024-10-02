@@ -209,15 +209,15 @@ export default function Example() {
 				</div>
 			</ParallaxSection>
 
-			<ParallaxSection>
+			{/* <ParallaxSection> */}
 				<About />
-			</ParallaxSection>
-			<ParallaxSection>
+			{/* </ParallaxSection> */}
+			{/* <ParallaxSection> */}
 				<BlogPost />
-			</ParallaxSection>
-			<ParallaxSection>
+			{/* </ParallaxSection> */}
+			{/* <ParallaxSection> */}
 				<Photos />
-			</ParallaxSection>
+			{/* </ParallaxSection> */}
 			<Footer />
 		</div>
 	);
